@@ -3,6 +3,6 @@ const app = require("./app");
 
 
 app.get('/',(req,res)=>{
-    res.send('hello word heroku app')
+    res.send('mise a jour')
 })
 const sever = http.createServer(app).listen(process.env.PORT || 4000);
